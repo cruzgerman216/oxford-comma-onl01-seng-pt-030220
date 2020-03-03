@@ -1,5 +1,5 @@
 def oxford_comma(array)
-  arr = array.pop()
+  arr = array.pop
   return arr[1]
 end
 
