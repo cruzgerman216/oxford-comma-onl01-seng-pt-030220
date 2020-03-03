@@ -11,7 +11,7 @@ def oxford_comma(array)
     else
       str = str +" and #{str2}"
     end
-    
+
   end
 
   return str
