@@ -1,7 +1,8 @@
 def oxford_comma(array)
+  arr = array
    array.pop
   str = array.join(",")
-  str = " and #{array[array.size - 1]}"
+  str = " and #{arr[arr.size - 1]}"
   return str
 end
 
