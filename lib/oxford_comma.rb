@@ -5,4 +5,4 @@ def oxford_comma(array)
   return str
 end
 
-puts oxford_comma("1","2","3")
+puts oxford_comma(["1","2","3"])
