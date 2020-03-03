@@ -6,7 +6,7 @@ def oxford_comma(array)
     arr = array
      array.pop
     str = array.join(", ")
-    if array.size > 2
+    if array.size >= 2
       str = str +", and #{str2}"
     else
       str = str +" and #{str2}"
